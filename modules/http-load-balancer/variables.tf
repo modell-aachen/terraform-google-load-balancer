@@ -70,3 +70,8 @@ variable "custom_labels" {
   default     = {}
 }
 
+variable "ssl_policy" {
+  description = "Resource link to a SSL policy"
+  type        = string
+  default     = ""
+}

@@ -70,6 +70,7 @@ resource "google_compute_target_https_proxy" "default" {
   url_map = var.url_map
 
   ssl_certificates = var.ssl_certificates
+  ssl_policy       = var.ssl_policy
 }
 
 # ------------------------------------------------------------------------------
